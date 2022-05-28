@@ -1,0 +1,30 @@
+.layout-topbar {
+  position: fixed;
+  top: 0;
+  z-index: 5;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  padding: 0px 1rem;
+
+  .menu-button {
+    display: none;
+    color: var(--text-color);
+    line-height: 70px;
+    text-align: center;
+    transition: background-color 0.2s;
+    cursor: pointer;
+
+    i {
+      font-size: 24px;
+      line-height: inherit;
+    }
+  }
+}
+
+@media screen and (max-width: 1200px) {
+  .layout-topbar .menu-button {
+    display: block;
+  }
+}

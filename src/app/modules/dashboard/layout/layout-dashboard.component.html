@@ -1,0 +1,8 @@
+<div class="layout-wrapper">
+  <app-sidebar></app-sidebar>
+  <app-topbar (toggleSidebar)="eventToggle()"></app-topbar>
+
+  <div class="layout-content">
+    <router-outlet></router-outlet>
+  </div>
+</div>

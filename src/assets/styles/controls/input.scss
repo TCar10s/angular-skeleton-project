@@ -1,0 +1,8 @@
+.label {
+  @apply block mb-2 text-sm font-medium text-gray-900 dark:text-gray-300;
+}
+
+.input-text {
+  @apply bg-secondary-dark border-2 border-white border-opacity-80
+          text-sm rounded-lg block w-full p-2.5 text-white;
+}
